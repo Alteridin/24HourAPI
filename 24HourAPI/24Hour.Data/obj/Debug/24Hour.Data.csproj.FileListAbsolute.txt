@@ -33,3 +33,5 @@ C:\Users\Carson Blair\source\repos\Alteridin\24HourAPI\24HourAPI\24Hour.Data\obj
 C:\Users\Carson Blair\source\repos\Alteridin\24HourAPI\24HourAPI\24Hour.Data\obj\Debug\24Hour.Data.csproj.CopyComplete
 C:\Users\Carson Blair\source\repos\Alteridin\24HourAPI\24HourAPI\24Hour.Data\obj\Debug\_24Hour.Data.dll
 C:\Users\Carson Blair\source\repos\Alteridin\24HourAPI\24HourAPI\24Hour.Data\obj\Debug\_24Hour.Data.pdb
+C:\Users\Carson Blair\Source\Repos\Alteridin\24HourAPI\24HourAPI\24Hour.Data\obj\Debug\_24Hour.Data.Migrations.derp.resources
+C:\Users\Carson Blair\Source\Repos\Alteridin\24HourAPI\24HourAPI\24Hour.Data\obj\Debug\24Hour.Data.csproj.GenerateResource.cache
