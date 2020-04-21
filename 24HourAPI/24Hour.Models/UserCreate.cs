@@ -9,6 +9,8 @@ namespace _24Hour.Models
 {
     public class UserCreate
     {
+        public Guid OwnerId { get; set; }
+        public int UserId { get; set; }
         [Required]
         public string Name { get; set; }
         [Required]
