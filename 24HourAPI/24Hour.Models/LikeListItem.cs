@@ -9,6 +9,7 @@ namespace _24Hour.Models
 {
     public class LikeListItem
     {
+        public int LikeId { get; set; }
         public Post LikedPost { get; set; }
         public User Liker { get; set; }
     }

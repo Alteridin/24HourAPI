@@ -10,6 +10,7 @@ namespace _24Hour.Models
 {
     public class ReplyCreate
     {
+        public int ReplyId { get; set; }
         [Required]
         public Comment ReplyComment { get; set; }
         [Required]

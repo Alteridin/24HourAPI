@@ -9,6 +9,8 @@ namespace _24Hour.Data
 {
     public class Reply : Comment
     {
+        [Key]
+        public int ReplyId { get; set; }
         [Required]
         public Comment ReplyComment { get; set; }
         [Required]

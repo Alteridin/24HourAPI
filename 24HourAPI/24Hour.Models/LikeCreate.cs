@@ -10,6 +10,7 @@ namespace _24Hour.Models
 {
     public class LikeCreate
     {
+        public int LikeId { get; set; }
         [Required]
         public Post LikedPost { get; set; }
     }
