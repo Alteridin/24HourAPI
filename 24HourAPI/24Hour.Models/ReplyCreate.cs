@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _24Hour.Data;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -7,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace _24Hour.Models
 {
-    public class UserCreate
+    public class ReplyCreate
     {
         [Required]
-        public string Name { get; set; }
+        public Comment ReplyComment { get; set; }
         [Required]
-        public string Email { get; set; }
+        public string ReplyText { get; set; }
     }
 }

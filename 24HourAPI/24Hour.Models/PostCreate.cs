@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace _24Hour.Models
 {
-    public class UserCreate
+    public class PostCreate
     {
         [Required]
-        public string Name { get; set; }
+        public string Title { get; set; }
         [Required]
-        public string Email { get; set; }
+        public string Text { get; set; }
     }
 }
