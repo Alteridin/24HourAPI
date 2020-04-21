@@ -10,6 +10,7 @@ using Microsoft.Owin.Security.OAuth;
 using Owin;
 using _24HourAPI.Providers;
 using _24HourAPI.Models;
+using _24Hour.Data;
 
 namespace _24HourAPI
 {

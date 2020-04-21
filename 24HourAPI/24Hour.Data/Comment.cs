@@ -18,8 +18,8 @@ namespace _24Hour.Data
         public User Author { get; set; }
         [Required]
         public Post CommentPost { get; set; }
-        public int ReplyId { get; set; }
-        [ForeignKey(nameof(ReplyId))]
+        public int ReplyID { get; set; }
+        [ForeignKey(nameof(ReplyID))]
         public virtual Reply Reply { get; set; }
 
     }
