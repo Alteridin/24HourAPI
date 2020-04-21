@@ -14,7 +14,7 @@ namespace _24HourAPI.Controllers
     {
         private CommentServices CreateCommentService()
         {
-            var userId = int.Parse(User.Identity.GetUserId());
+            var userId = Int32.Parse(User.Identity.GetUserId());
             var commentService = new CommentServices(userId);
             return commentService;
         }

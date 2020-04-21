@@ -12,6 +12,8 @@ namespace _24Hour.Data
         [Key]
         public int LikeId { get; set; }
         [Required]
+        public Guid LikeIdz { get; set; }
+        [Required]
         public Post LikedPost { get; set; }
         [Required]
         public User Liker { get; set; }

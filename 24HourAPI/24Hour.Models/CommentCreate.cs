@@ -14,5 +14,6 @@ namespace _24Hour.Models
         public string Text { get; set; }
         [Required]
         public Post CommentPost { get; set; }
+        public Guid CommentIdz { get; set; }
     }
 }

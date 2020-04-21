@@ -13,6 +13,8 @@ namespace _24Hour.Data
         [Key]
         public int PostId { get; set; }
         [Required]
+        public Guid PostIdz { get; set; }
+        [Required]
         public string Title { get; set; }
         [Required]
         public string Text { get; set; }

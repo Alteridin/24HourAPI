@@ -10,17 +10,17 @@ namespace _24Hour.Services
 {
     public class CommentServices
     {
-        private readonly int _CommentId;
+        private readonly int _commentId;
         public CommentServices(int commentId)
         {
-            _CommentId = commentId;
+            _commentId = commentId;
         }
         public bool CreateComment(CommentCreate model)
         {
             var entity =
                 new Comment()
                 {
-                    CommentId = _CommentId,
+                    CommentId = _commentId,
                     CommentPost = model.CommentPost,
                     Text = model.Text
                 };
@@ -37,7 +37,7 @@ namespace _24Hour.Services
                 var query =
                     ctx
                     .Comments
-                    .Where(e => e.CommentId == _CommentId)
+                    .Where(e => e.CommentId == _commentId)
                     .Select(
                         e =>
                         new CommentListItem

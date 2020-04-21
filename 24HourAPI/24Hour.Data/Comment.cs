@@ -17,6 +17,8 @@ namespace _24Hour.Data
         [Required]
         public User Author { get; set; }
         [Required]
+        public Guid CommentIdz { get; set; }
+        [Required]
         public Post CommentPost { get; set; }
         public int ReplyId { get; set; }
         [ForeignKey(nameof(ReplyId))]

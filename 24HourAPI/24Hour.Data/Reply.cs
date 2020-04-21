@@ -12,6 +12,8 @@ namespace _24Hour.Data
         [Key]
         public int ReplyId { get; set; }
         [Required]
+        public Guid ReplyIdz { get; set; }
+        [Required]
         public Comment ReplyComment { get; set; }
         [Required]
         public string ReplyText { get; set; }

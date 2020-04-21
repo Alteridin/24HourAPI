@@ -9,6 +9,7 @@ namespace _24Hour.Models
 {
     public class CommentListItem
     {
+        public Guid CommentIdz { get; set; }
         public int CommentId { get; set; }
         public string Text { get; set; }
         public User Author { get; set; }

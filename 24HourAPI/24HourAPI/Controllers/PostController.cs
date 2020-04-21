@@ -14,7 +14,7 @@ namespace _24HourAPI.Controllers
     {
         private PostServices CreatePostService()
         {
-            var userId = int.Parse(User.Identity.GetUserId());
+            var userId = Int32.Parse(User.Identity.GetUserId());
             var postService = new PostServices(userId);
             return postService;
         }

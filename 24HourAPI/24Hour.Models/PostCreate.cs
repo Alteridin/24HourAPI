@@ -9,6 +9,7 @@ namespace _24Hour.Models
 {
     public class PostCreate
     {
+        public Guid PostIdz { get; set; }
         public int PostId { get; set; }
         [Required]
         public string Title { get; set; }

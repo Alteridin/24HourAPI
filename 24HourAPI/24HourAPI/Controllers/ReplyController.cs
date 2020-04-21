@@ -14,7 +14,7 @@ namespace _24HourAPI.Controllers
     {
         private ReplyServices CreateReplyService()
         {
-            var userId = int.Parse(User.Identity.GetUserId());
+            var userId = Int32.Parse(User.Identity.GetUserId());
             var replyService = new ReplyServices(userId);
             return replyService;
         }
