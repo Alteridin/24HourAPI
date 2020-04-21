@@ -30,7 +30,7 @@ namespace _24Hour.Services
                 return ctx.SaveChanges() == 1;
             }
         }
-        public IEnumerable<ReplyListItem> Getreply()
+        public IEnumerable<ReplyListItem> GetReply()
         {
             using (var ctx = new ApplicationDbContext())
             {
