@@ -91,6 +91,10 @@
     <Compile Include="Migrations\202004211754234_derp.Designer.cs">
       <DependentUpon>202004211754234_derp.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004211949541_dang.cs" />
+    <Compile Include="Migrations\202004211949541_dang.Designer.cs">
+      <DependentUpon>202004211949541_dang.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Post.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -104,6 +108,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202004211754234_derp.resx">
       <DependentUpon>202004211754234_derp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004211949541_dang.resx">
+      <DependentUpon>202004211949541_dang.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
